@@ -16710,6 +16710,7 @@ GameObject:
   - component: {fileID: 1416512445}
   - component: {fileID: 1416512444}
   - component: {fileID: 1416512447}
+  - component: {fileID: 1416512448}
   m_Layer: 0
   m_Name: g1_29dof_with_hand_rev_1_0
   m_TagString: robot
@@ -16900,6 +16901,64 @@ MonoBehaviour:
     direction: 1
   R_WRIST_YAW:
     jointObject: {fileID: 1967916904}
+    rotationAxis: {x: 0, y: 1, z: 0}
+    direction: -1
+--- !u!114 &1416512448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1416512443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6939f48e3ac66aa44aeb91f1954785f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Dex3HandUdpController
+  listenPort: 5010
+  smoothing: 0
+  left:
+  - jointObject: {fileID: 1830449403}
+    rotationAxis: {x: 1, y: 0, z: 0}
+    direction: 1
+  - jointObject: {fileID: 1381434336}
+    rotationAxis: {x: 0, y: 1, z: 0}
+    direction: -1
+  - jointObject: {fileID: 737013909}
+    rotationAxis: {x: 0, y: 1, z: 0}
+    direction: -1
+  - jointObject: {fileID: 1726722071}
+    rotationAxis: {x: 0, y: 1, z: 0}
+    direction: -1
+  - jointObject: {fileID: 864063942}
+    rotationAxis: {x: 0, y: 1, z: 0}
+    direction: -1
+  - jointObject: {fileID: 1808857210}
+    rotationAxis: {x: 0, y: 1, z: 0}
+    direction: -1
+  - jointObject: {fileID: 1503658244}
+    rotationAxis: {x: 0, y: 1, z: 0}
+    direction: -1
+  right:
+  - jointObject: {fileID: 421954153}
+    rotationAxis: {x: 1, y: 0, z: 0}
+    direction: 1
+  - jointObject: {fileID: 245322975}
+    rotationAxis: {x: 0, y: 1, z: 0}
+    direction: -1
+  - jointObject: {fileID: 1124909169}
+    rotationAxis: {x: 0, y: 1, z: 0}
+    direction: -1
+  - jointObject: {fileID: 123102809}
+    rotationAxis: {x: 0, y: 1, z: 0}
+    direction: -1
+  - jointObject: {fileID: 1363357808}
+    rotationAxis: {x: 0, y: 1, z: 0}
+    direction: -1
+  - jointObject: {fileID: 1347117162}
+    rotationAxis: {x: 0, y: 1, z: 0}
+    direction: -1
+  - jointObject: {fileID: 1590738777}
     rotationAxis: {x: 0, y: 1, z: 0}
     direction: -1
 --- !u!1 &1429675637
