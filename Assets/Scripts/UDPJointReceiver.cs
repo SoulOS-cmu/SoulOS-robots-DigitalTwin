@@ -262,7 +262,7 @@ public class G1JointControllerUDP : MonoBehaviour
             }
         }
 
-        //optional: quick debug heartbeat (watch seq increment to confirm packets arrive)
+
         //if (_hasSeq) Debug.Log($"seq {_lastSeq}");
     }
 
